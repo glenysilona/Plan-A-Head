@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F6FE;
+}
+
+/*sidebar*/
+
+.sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2C559C;
+    display: block;
+    width: 80px;
+    height: 100vh;
+    width: 5%;
+    position: fixed;
+}
+
+.logo-sidebar img {
+    width: 50px;
+    align-items: center;
+}
+
+.logo-sidebar {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.menu-sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2072FF;
+    display: inline-block;
+    width: 50px;
+    height: 600px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu-text {
+    font-size: small;
+}
+
+.menu1-icon {
+    margin-top: 10px;
+}
+
+.menu-icon {
+    width: 30px;
+}
+
+.menu2 {
+    margin-top: 280px;
+}
+
+/*Dashboard*/
+
+.dashboard {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 95%;
+    margin-left: 105px;
+}
+
+/*Menu Dashboard*/
+.menu-dashboard {
+    margin: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-dashboard1 {
+    display: flex;
+}
+
+.menu-dashboard2 {
+    display: flex;
+    margin-right: 40px;
+}
+
+.list-icon {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.search-bar {
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    margin-right: 15px;
+    padding: 15px 60px;
+}
+
+.btn-start {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #22A6B3;
+    color: white;
+    padding: 15px 20px;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.profile-name {
+    margin-left: 10px;
+    margin-top: 17px;
+    color: #949494;
+    text-decoration: none;
+}
+
+.down-icon {
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*.search-bar::-webkit-input-placeholder {}*/
+
+/*-----Project Dashboard-----*/
+.project-dashboard {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 95%;
+    margin: 0 20px;
+}
+
+/*Your Project*/
+
+.your-project {
+    width: 1000px;
+    min-height: 700px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 30px;
+    flex-basis: 85%;
+}
+
+/*layout1*/
+
+.yp-layout1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+    margin-top: 40px;
+}
+
+.layout1-text {
+    font-size: 30px;
+}
+
+.layout1-menu {
+    display: flex;
+}
+
+.layout1-menubar {
+    margin-right: 10px;
+}
+
+.layout1-menubar a {
+    font-size: small;
+    color: #949494;
+    margin-left: 3px;
+}
+
+.layout1-menudown {
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+/*layout2*/
+
+.yp-layout2 {
+    display: flex;
+    margin: 40px 30px;
+}
+
+/*Project1*/
+
+.project1 {
+    width: 320px;
+    min-height: 250px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    margin: 5px;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+.project1-layout {
+    margin: 10px 10px;
+}
+
+.pj1-layout1 {
+    margin-bottom: 10px;
+}
+
+.pj1-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #22A6B3;
+    margin-right: 40px;
+    background-color: #BDE5E9;
+    padding: 1px 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.pj1-icon {
+    width: 25px;
+    float: right;
+}
+
+.pj1-title2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pj1-p {
+    font-size: small;
+    color: #949494;
+}
+
+.pj1-progress {
+    float: right;
+}
+
+/* Project2 */
+
+.project2 {
+    width: 300px;
+    min-height: 200px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    margin: 5px;
+}
+
+
+.project2-layout {
+    margin: 25px 10px;
+}
+
+.pj2-layout1 {
+    margin-bottom: 10px;
+}
+
+.pj2-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #EB4D4B;
+    margin-right: 40px;
+    background-color: #F9CAC9;
+    padding: 1px 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pj2-icon {
+    width: 25px;
+    float: right;
+}
+
+.pj2-title2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pj2-p {
+    font-size: small;
+    color: #949494;
+}
+
+.pj2-progress {
+    float: right;
+}
+
+/* Project 3 */
+
+.project3 {
+    width: 300px;
+    min-height: 200px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    margin: 5px;
+}
+
+
+.project3-layout {
+    margin: 25px 10px;
+}
+
+.pj3-layout1 {
+    margin-bottom: 10px;
+}
+
+.pj3-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9CA24;
+    margin-right: 40px;
+    background-color: #FEF0BE;
+    padding: 1px 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.pj3-icon {
+    width: 25px;
+    float: right;
+}
+
+.pj3-title2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pj3-p {
+    font-size: small;
+    color: #949494;
+}
+
+.pj3-progress {
+    float: right;
+}
+
+/*Analytic Dashboard*/
+
+.analytics {
+    flex-basis: 25%;
+    width: 400px;
+    min-height: 700px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.al-layout1 {
+    margin: 20px 10px;
+}
+
+.al-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.al-title2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.al-layout2 {
+    display: flex;
+    margin: 0 30px;
+}
+
+.al-total {
+    width: 100px;
+    min-height: 60px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #BDD5FF;
+    margin: 5px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.al-total a {
+    font-size: 15px;
+}
+
+.al-completed {
+    width: 110px;
+    min-height: 60px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #BDE5E9;
+    margin: 5px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.al-completed a {
+    font-size: 15px;
+}
+
+.al-progres {
+    width: 100px;
+    min-height: 60px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #FEF0BE;
+    margin: 5px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.al-progres a {
+    font-size: 14px;
+}
+
+.al-draft {
+    width: 110px;
+    min-height: 60px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.05);
+    background-color: #F9CAC9;
+    margin: 5px;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+.al-layout3 {
+    display: flex;
+    margin: 0 30px;
+}
+
+.al-layout4 {
+    margin-top: 10px;
+}
+
+.al-today {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.zoom {
+    margin: 0 10px;
+}
+
+.zoom img {
+    width: 280px;
+}
+
+.yp-layout3 {
+    justify-content: space-between;
+    display: flex;
+    margin: 40px 30px;
+}

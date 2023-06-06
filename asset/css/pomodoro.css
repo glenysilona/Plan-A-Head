@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F6FE;
+}
+
+/*sidebar*/
+
+.sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2C559C;
+    display: block;
+    width: 80px;
+    height: 100vh;
+    width: 5%;
+    position: fixed;
+}
+
+.logo-sidebar img {
+    width: 50px;
+    align-items: center;
+}
+
+.logo-sidebar {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.menu-sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2072FF;
+    display: inline-block;
+    width: 50px;
+    height: 600px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu-text {
+    font-size: small;
+}
+
+.menu1-icon {
+    margin-top: 10px;
+}
+
+.menu-icon {
+    width: 30px;
+}
+
+.menu2 {
+    margin-top: 280px;
+}
+
+/*Dashboard*/
+
+.dashboard {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 95%;
+    margin-left: 105px;
+}
+
+/*Menu Dashboard*/
+.menu-dashboard {
+    margin: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-dashboard1 {
+    display: flex;
+}
+
+.menu-dashboard2 {
+    display: flex;
+    margin-right: 40px;
+}
+
+.list-icon {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.search-bar {
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    margin-right: 15px;
+    padding: 15px 60px;
+}
+
+.btn-start {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #22A6B3;
+    color: white;
+    padding: 15px 20px;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.profile-name {
+    margin-left: 10px;
+    margin-top: 17px;
+    color: #949494;
+    text-decoration: none;
+}
+
+.down-icon {
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*.search-bar::-webkit-input-placeholder {}*/
+
+/*-----Project Dashboard-----*/
+.timer-dashboard {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 20px;
+}
+
+/*Calendar 1*/
+
+.timer-layout {
+    width: 1390px;
+    min-height: 600px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    background-color: #E67E22;
+    margin-right: 30px;
+}
+
+#timer {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    background-color: #E07118;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+.timer-option {
+    margin-top: 70px;
+}
+
+.timer-option button {
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    color: white;
+    background-color: #D35400;
+}
+
+#timer span {
+    color: white;
+    font-size: 100px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.timer-layout input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.timer-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #D35400;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins';
+
+}
+
+.timer-task {
+    margin-top: 10px;
+    padding: 0 430px;
+}
+
+.task1 {
+    color: white;
+}
+
+.task2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.task3 {
+    color: white;
+}
+
+.btn-task {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: dotted;
+    border-color: white;
+    background-color: #E07118;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins';
+
+}

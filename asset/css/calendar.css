@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F6FE;
+}
+
+/*sidebar*/
+
+.sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2C559C;
+    display: block;
+    width: 80px;
+    height: 100vh;
+    width: 5%;
+    position: fixed;
+}
+
+.logo-sidebar img {
+    width: 50px;
+    align-items: center;
+}
+
+.logo-sidebar {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.menu-sidebar {
+    justify-content: center;
+    align-items: center;
+    background-color: #2072FF;
+    display: inline-block;
+    width: 50px;
+    height: 600px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu-text {
+    font-size: small;
+}
+
+.menu1-icon {
+    margin-top: 10px;
+}
+
+.menu-icon {
+    width: 30px;
+}
+
+.menu2 {
+    margin-top: 280px;
+}
+
+/*Dashboard*/
+
+.dashboard {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 95%;
+    margin-left: 105px;
+}
+
+/*Menu Dashboard*/
+.menu-dashboard {
+    margin: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-dashboard1 {
+    display: flex;
+}
+
+.menu-dashboard2 {
+    display: flex;
+    margin-right: 40px;
+}
+
+.list-icon {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.search-bar {
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    margin-right: 15px;
+    padding: 15px 60px;
+}
+
+.btn-start {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #22A6B3;
+    color: white;
+    padding: 15px 20px;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.profile-name {
+    margin-left: 10px;
+    margin-top: 17px;
+    color: #949494;
+    text-decoration: none;
+}
+
+.down-icon {
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*.search-bar::-webkit-input-placeholder {}*/
+
+/*-----Project Dashboard-----*/
+.calendar-dashboard {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 20px;
+}
+
+/*Calendar 1*/
+
+.calendar1 {
+    width: 930px;
+    min-height: 800px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+}
+
+.calendar1 p {
+    padding: 40px 40px 20px 40px;
+    font-size: 25px;
+}
+
+.calendar1 img {
+    margin-left: 30px;
+    width: 850px;
+}
+
+/* Calendar 2 */
+.calendar2 {
+    display: inline-block;
+}
+
+.calendar1-layout1 {
+    width: 400px;
+    min-height: 600px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.calendar1-layout2 {
+    width: 400px;
+    min-height: 300px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 40px;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+}
+
+.layout1-row1 {
+    width: 100%;
+    min-height: 50px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.layout1-row1 p {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.layout1-row2 {
+    width: 80%;
+    min-height: 50px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #2072FF;
+    justify-content: center;
+    margin: 0 40px;
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.layout1-row2 button {
+    border-style: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.layout1-row3 {
+    width: 80%;
+    min-height: 35px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #BDE5E9;
+    justify-content: center;
+    margin: 10px 40px;
+    align-items: center;
+    color: #16A34A;
+    border-style: dotted;
+    border-color: #16A34A;
+}
+
+.layout1-row4 {
+    width: 80%;
+    min-height: 35px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #FEF0BE;
+    justify-content: center;
+    margin: 10px 40px;
+    align-items: center;
+    color: #CA8A04;
+    border-style: dotted;
+    border-color: #CA8A04;
+}
+
+.layout1-row5 {
+    width: 80%;
+    min-height: 35px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #BDD5FF;
+    justify-content: center;
+    margin: 10px 40px;
+    align-items: center;
+    color: #2072FF;
+    border-style: dotted;
+    border-color: #2072FF;
+}
+
+.layout1-row6 {
+    width: 80%;
+    min-height: 35px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #FEE2E2;
+    justify-content: center;
+    margin: 10px 40px;
+    align-items: center;
+    border-style: dotted;
+    border-color: #DC2626;
+    color: #DC2626;
+}
+
+.layout1-row7 {
+    width: 80%;
+    min-height: 35px;
+    /**ngatur tinggi kotaknya pake min height**/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #F3F4F6;
+    justify-content: center;
+    margin: 10px 40px;
+    align-items: center;
+    border-style: dotted;
+    border-color: #475569;
+    color: #475569;
+}
+
+.layout1-row8 {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 40px;
+    display: inline-block;
+}
+
+.row8-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row8-1 {
+    margin-left: 6px;
+    display: flex;
+}
+
+.line1 img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+.line2 img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+.row8-1 a {
+    font-size: 17px;
+}
+
+.row8-1 p {
+    font-size: small;
+    color: #949494;
+}
+
+.row8-2 {
+    margin-left: 7px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.row8-2 span {
+    color: #DC2626;
+}
+
+.row8-2 a {
+    font-size: 17px;
+}
+
+.row8-2 p {
+    font-size: small;
+    color: #949494;
+}
+
+.calendar1-layout2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar1-layout2 a {
+    padding: 20px 30px;
+}
+
+.viewicon {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.calendar1-layout2 p {
+    padding: 10px 30px;
+    color: #3D3D3D;
+}
+
+.timecard img {
+    width: 350px;
+}

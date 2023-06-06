@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title-->
+    <title>Plan A Head | Dashboard</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="asset/css/createproject.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/f4d0d98a56.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="asset/img/favicon.png">
+</head>
+
+<body>
+    <!--SideBar-->
+    <div class="sidebar">
+        <div class="logo-sidebar">
+            <center>
+                <img src="asset/img/logosidebar.png " alt="logo">
+            </center>
+        </div>
+        <center>
+            <div class="menu-sidebar">
+                <div class="menu1">
+                    <a class="menu-text">Menu</a>
+                    <div class="menu1-icon">
+                        <a href="dashboard.html"><img class="menu-icon" src="asset/img/homeicon.png"></a>
+                        <a href="create_scratchnote.html"><img class="menu-icon" src="asset/img/iconcreate.png"></a>
+                        <a href="create_todolist.html"><img class="menu-icon" src="asset/img/menu3.png"></a>
+                        <a href="calendar.html"><img class="menu-icon" src="asset/img/calendaricon.png"></a>
+                        <a href="pomodoro.html"><img class="menu-icon" src="asset/img/timer.png"></a>
+                    </div>
+                </div>
+                <div class="menu2">
+                    <div class="menu2-icon">
+                        <a href=""><img class="menu-icon" src="asset/img/settingicon.png" alt="home"></a>
+                        <a href="index.html"><img class="menu-icon" src="asset/img/backicon.png" alt="pomodoro"></a>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!--Dashboard-->
+    <div class="dashboard">
+        <!--Menu yang ada di atas-->
+        <div class="menu-dashboard">
+            <div class="menu-dashboard1">
+                <input class="search-bar" type="text" placeholder="Search by name, label, task, or team member">
+                <a href=""><button class="btn-start">Start a new Project</button></a>
+            </div>
+            <div class="menu-dashboard2">
+                <a href="profile.html"><img class="profile-photo" src="asset/img/profile-photo.png" alt="profile"></a>
+                <a href="profile.html" class="profile-name">Wazzowski</a>
+            </div>
+        </div>
+        <!--Create Project-->
+        <div class="project-dashboard">
+            <div class="create-project">
+                <div class="cp-layout">
+                    <div class="layout1">
+                        <p>Create Project</p>
+                        <img src="asset/img/cp1.png" alt="createproject">
+                    </div>
+                    <div class="layout2">
+                        <p>Select Project Type</p>
+                        <select name="option" id="option" class="layout1-menudown">
+                            <option value="inprogress">Kanban</option>
+                            <option value="done">To Do List</option>
+                            <option value="option3">Scratch Note</option>
+                        </select>
+                    </div>
+                    <div class="layout3">
+                        <p>Project Visibility</p>
+                        <select name="option" id="option" class="layout1-menudown">
+                            <option value="inprogress">Option1</option>
+                            <option value="done">Option2</option>
+                            <option value="option3">Option3</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <a href="dashboard.html"><button class="btn-back">Back</button></a>
+                        <a href="create_kanban.html"><button class="btn-save">Save</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
